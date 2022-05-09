@@ -1,0 +1,27 @@
+.recipe-image {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 3%;
+    max-width: 90%;
+    object-fit: cover;
+}
+
+.recipe-top-container {
+    background: #ffffff;
+}
+
+.recipe-page {
+    background: #ffffff;
+}
+
+.ingredients-container {
+    background: #ffffff;
+}
+
+.instructions-container {
+    background: #ffffff;
+}
+
+.bookmark {
+    margin-top: 32px !important;
+}

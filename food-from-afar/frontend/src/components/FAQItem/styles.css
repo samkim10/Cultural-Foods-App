@@ -1,0 +1,22 @@
+.faq-question{
+    background-color: #edeee9;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 40vw;
+}
+
+.faq-question:hover {
+    background-color: #f1f1ee;
+}
+
+.faq-answer {
+    display: flex;
+    padding: 1rem 2rem 0 2rem;
+    width: 40vw;
+}

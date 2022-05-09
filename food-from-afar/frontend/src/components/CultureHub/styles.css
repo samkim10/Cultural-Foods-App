@@ -1,0 +1,18 @@
+.culture-hub-container {
+    margin: 3rem 6rem 4rem 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.culture-hub-heading {
+    font-size: large;
+    font-weight: 500;
+}
+
+.culture-hub-item-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 3rem;
+}
+

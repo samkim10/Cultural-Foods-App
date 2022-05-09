@@ -1,0 +1,5 @@
+.user-profile-grid {
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr) 5fr;
+    padding: 3rem;
+}

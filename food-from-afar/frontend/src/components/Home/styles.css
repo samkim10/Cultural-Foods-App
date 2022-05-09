@@ -1,0 +1,81 @@
+ .home-top-container {
+    background: #FCE098;
+}
+
+.home-top-text {
+    padding: 7rem 4rem 7rem 10rem !important;
+}
+
+@media (max-width: 900px) {
+    .home-top-text {
+        padding: 7rem 7rem 0 7rem !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-top-text {
+        padding: 5rem 5rem 0 5rem !important;
+    }
+}
+
+.home-top-image {
+    padding: 4rem !important;
+}
+
+.home-page-top-image {
+    padding-top: 2rem;
+}
+
+.home-description-text {
+    font-weight: 500;
+}
+
+.section-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4rem;
+}
+
+.how-it-works-item-container {
+    display: flex;
+    gap: 3.5rem;
+    margin: 1.5rem 3rem;
+}
+
+.meal-of-the-day-right-section {
+    position: relative;
+    padding: 1.5rem 1rem;
+}
+
+.meal-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    box-shadow: #E3E4E5 0px 7px 29px 0px !important;
+    max-width: 65rem;
+}
+
+.tags-container {
+    margin: 1rem 0 !important;
+}
+
+.ingredients-container {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.meal-of-the-day-img {
+    border-radius: 0.1rem;
+    width: 30rem;
+}
+
+.faq-item-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+

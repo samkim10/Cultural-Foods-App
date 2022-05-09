@@ -1,0 +1,78 @@
+.culture-top-container {
+    background-color: #FCE098;
+    border-bottom: 1pt solid gray;
+}
+
+.culture-top-text {
+    padding: 7rem 4rem 7rem 10rem !important;
+}
+
+.culture-name-text {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.culture-description-text {
+    font-weight: 500;
+}
+
+/* main section */
+.culture-page-main {
+    display: grid;
+    grid-template-columns: minmax(250px, 1fr) 4fr;
+}
+
+/* side bar */
+.culture-sidebar-container {
+    /* background: #ffefe9; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-right: 1pt solid gray;
+    height: 100vh;
+}
+
+/* recipes section */
+.culture-recipes-container {
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.recipes {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.side-bar-top-options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.all-recipes-text {
+    margin-left: 350px;
+}
+
+.sidebar-btn {
+    /* style like normal text */ 
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    font-size: 12pt;
+}
+
+.full-width {
+    width: 100vh;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.MuiCard-root {
+    padding: 1rem;
+    min-width: 200px;
+}

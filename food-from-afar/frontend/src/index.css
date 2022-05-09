@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* custom buttons */
+.primary-btn {
+    border: none;
+    border-radius: 7px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #FF754E;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 23px 10px 23px;
+    margin-top: 2rem;
+    text-decoration: none;
+}
+
+.primary-btn-no-margin {
+    border: none;
+    border-radius: 7px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #FF754E;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 23px 10px 23px;
+    text-decoration: none;
+}
+
+.primary-btn:hover {
+    background: #ff805d;
+    text-decoration: none;
+  }
+
+.btn-with-no-styling {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+    font-size: medium;
+  }
+
+/* custom headings */
+.heading1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.heading2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.heading3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.heading4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.bold {
+    font-weight: 500 !important;
+}
+
+/* custom link */
+.link {
+    color: black !important;
+}
+
+/* alignment */
+.text-align-left {
+    text-align: left;
+}
+
+.btn-bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+/* custom checkboxes */
+input[type="checkbox"] { 
+  filter: hue-rotate(150deg) brightness(1.3);
+}
+
+.checkbox-text {
+  margin-left: 1.5rem;
+  display: block;
+  position: relative;
+  margin-top: -1.3rem;
+}
+
+/* custom inputbox */
+.custom-inputbox {
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5rem;
+}
+
+/* margin */
+.mb-1 {
+    margin-bottom: 0.5rem;
+}
+
+.mb-2 {
+    margin-bottom: 1rem;
+}

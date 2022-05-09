@@ -1,0 +1,29 @@
+.user-profile-grid {
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr) 5fr;
+    padding: 3rem;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 70%;
+    height: auto;
+    min-height: 50px;
+    min-width: 50px;
+    display:inline-block;
+    background:#eaeaea;
+    box-shadow: 0px 3px #aaaaaa;
+    padding:0.5rem;
+}
+
+.input-container {
+    margin: 2rem 0;
+}
+
+.inputbox-myaccount {
+    max-width: 70%;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
